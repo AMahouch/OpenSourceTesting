@@ -27,6 +27,13 @@ Research at the National Institue of Standards and Technology (NIST) confirms th
 
 Pairwise testing is a specific form of combinatorial testing. It focuses on testing combinations of input parameters in pairs, ensuring that **every possible pair of parameter values is tested at least once**.
 
+
+
+Why Pairwise?
+
+* Many faults are caused by the interactions of two parameters (NIST Study).
+* It is simply not practical to cover all the parameter interactions.
+
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>A set of pairwise test cases<br><br>(source: Introduction to Software Testing, Ammann &#x26; Offutt)</p></figcaption></figure>
 
 ## Tools&#x20;

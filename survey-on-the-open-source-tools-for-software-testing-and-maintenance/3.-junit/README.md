@@ -8,8 +8,14 @@ JUnit is a simple, open-source framework to write and run repeatable unit tests.
 * Test fixtures for sharing common test data
 * Test runners for automatically running tests
 
-#### Sequence
+**Why JUnit?**\
+There are several benefits to using JUnit for your software testing, including
 
+* Early fault detection
+* Refactoring & regression testing facilitation
+* Formal specification for intended behavior
+
+**Sequence**\
 Typically, the flow of test generation JUnit works in this sequence:
 
 1. Write the test class to be tested

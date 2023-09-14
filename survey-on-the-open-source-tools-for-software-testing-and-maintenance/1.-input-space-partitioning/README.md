@@ -14,8 +14,8 @@ The input space of a program consists of all possible inputs that could be taken
 
 In addition, ISP can be seen through Input Parameter Modeling, in which testable components, input parameters, and environment configurations are identified and partitioned based on characteristic.&#x20;
 
-* **Interface-Based IPM** uses syntactical interface
-* **Functionality-Based IPM** uses semantics
+* **Interface-Based IPM** uses the **syntactical** interface of a program to partition the input space. This means that it considers the structure and format of inputs, but not their meaning.
+* **Functionality-Based IPM** uses the **semantics** of a program to partition the input space. This means that it considers the meaning of the inputs and how they affect the program's behavior.
 
 ## Tool
 

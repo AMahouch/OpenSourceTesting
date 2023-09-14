@@ -25,4 +25,6 @@ _Note: pairwise, all combinations, and each choice coverage are all special case
 
 Microsoft PICT (Pairwise Independent Combinatorial Testing):
 
-[https://github.com/microsoft/pict](https://github.com/microsoft/pict)
+{% embed url="https://github.com/microsoft/pict" %}
+
+{% embed url="https://learn.microsoft.com/en-us/windows-hardware/drivers/taef/pict-data-source" %}

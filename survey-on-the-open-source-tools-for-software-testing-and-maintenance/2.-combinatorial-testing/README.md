@@ -27,8 +27,6 @@ Research at the National Institue of Standards and Technology (NIST) confirms th
 
 Pairwise testing is a specific form of combinatorial testing. It focuses on testing combinations of input parameters in pairs, ensuring that **every possible pair of parameter values is tested at least once**.
 
-
-
 Why Pairwise?
 
 * Many faults are caused by the interactions of two parameters (NIST Study).
@@ -41,7 +39,5 @@ Why Pairwise?
 Microsoft PICT (Pairwise Independent Combinatorial Testing):
 
 {% embed url="https://github.com/microsoft/pict" %}
-
-{% embed url="https://learn.microsoft.com/en-us/windows-hardware/drivers/taef/pict-data-source" %}
 
 [^1]: [https://csrc.nist.gov/Projects/Automated-Combinatorial-Testing-for-Software](https://csrc.nist.gov/Projects/Automated-Combinatorial-Testing-for-Software)

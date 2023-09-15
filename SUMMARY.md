@@ -1,12 +1,11 @@
 # Table of contents
 
 * [Survey on the Open-source Tools for Software Testing and Maintenance](README.md)
-  * [1. Input Space Partitioning](survey-on-the-open-source-tools-for-software-testing-and-maintenance/1.-input-space-partitioning/README.md)
-    * [Java Code Coverage (JaCoCo)](survey-on-the-open-source-tools-for-software-testing-and-maintenance/1.-input-space-partitioning/java-code-coverage-jacoco.md)
+  * [1. Input Space Partitioning](survey-on-the-open-source-tools-for-software-testing-and-maintenance/1.-input-space-partitioning.md)
   * [2. Combinatorial Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/README.md)
     * [PICT](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/pict.md)
   * [3. JUnit](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/README.md)
-    * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/tool1.md)
+    * [Java Code Coverage (JaCoCo)](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/java-code-coverage-jacoco.md)
   * [4. Control Flow Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/README.md)
     * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/tool1.md)
   * [5, Test Data Generation](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5-test-data-generation/README.md)

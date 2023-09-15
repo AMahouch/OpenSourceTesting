@@ -87,7 +87,7 @@ IF [FSYSTEM] in {"FAT", "FAT32"} or
 
 ### Run pict command and review generated tests
 
-1. Run pict command on the text file, redirecting the output to a file called `output.txt`:\
+1. Run pict command on the text file, redirecting the output to a file `output.txt`:\
    `pict input.txt  > output.txt`
 2. View the created tests to see the combinations of parameter values PICT has generated for testing:
 
@@ -140,10 +140,18 @@ Mirror	1000	quick	FAT	512	off
 Stripe	1000	quick	FAT32	1024	off
 ```
 
-
-
 ## Demo
 
 {% embed url="https://youtu.be/EOES8EjEbFQ" %}
+
+### Resources
+
+{% embed url="https://www.pairwise.org/" %}
+Suite of combinatorial testing tools
+{% endembed %}
+
+{% embed url="https://pairwise.yuuniworks.com/" %}
+Web version of PICT
+{% endembed %}
 
 [^1]: [https://github.com/microsoft/pict/tree/main](https://github.com/microsoft/pict/tree/main)

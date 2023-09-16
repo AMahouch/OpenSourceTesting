@@ -91,6 +91,7 @@ IF [FSYSTEM] in {"FAT", "FAT32"} or
    `pict input.txt  > output.txt`
 2. View the created tests to see the combinations of parameter values PICT has generated for testing:
 
+{% code title="output.txt" %}
 ```
 TYPE	SIZE	FORMAT	FSYSTEM	CLUSTER	COMPRESSION
 Single	10	quick	NTFS	2048	off
@@ -139,6 +140,7 @@ Stripe	5000	quick	NTFS	32768	off
 Mirror	1000	quick	FAT	512	off
 Stripe	1000	quick	FAT32	1024	off
 ```
+{% endcode %}
 
 ## Demo
 

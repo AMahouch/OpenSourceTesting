@@ -9,7 +9,7 @@ JUnit is a simple, open-source framework to write and run repeatable unit tests.
 * Test runners for automatically running tests
 
 **Why JUnit?**\
-There are several benefits to using JUnit for your software testing, including
+There are several benefits to use JUnit for your software testing, including:
 
 * Early fault detection
 * Refactoring & regression testing facilitation
@@ -18,8 +18,8 @@ There are several benefits to using JUnit for your software testing, including
 **Sequence**\
 Typically, the flow of test generation JUnit works in this sequence:
 
-1. Write the test class to be tested
-2. Write a test class
+1. Write the class to be tested
+2. Write a test class to test the class under the test
 3. Write test setup methods if needed
 4. Write test methods which are annotated with @test
 5. Write test teardown methods if needed
@@ -29,7 +29,7 @@ Typically, the flow of test generation JUnit works in this sequence:
 
 #### Example
 
-The example below shows two classes, `TriangleClassifier` and `TriangleClassifierTest`, which classifies triangles based on their side lengths as isosceles, scalene, or equilateral.
+The class under the test: **TriangleClassifier.java**, which classifies triangles based on their side lengths as isosceles, scalene, or equilateral.
 
 {% code title="TriangleClassifier.java" %}
 ```java
@@ -72,6 +72,8 @@ public class TriangleClassifier {
 }
 ```
 {% endcode %}
+
+The test class: **TriangleClassifierTest.java** that contains JUnit test methods.
 
 {% code title="TriangleClassifierTest.java" %}
 ```java
@@ -145,8 +147,4 @@ JUnit uses several annotations which are a special form of syntactic meta-data t
 
 
 
-
-
-## Tools&#x20;
-
-Tool1 (link)
+Junit is commonly used with JaCoCo, an open-source library that measures the code coverage.

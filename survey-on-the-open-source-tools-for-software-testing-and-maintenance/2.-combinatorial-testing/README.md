@@ -17,7 +17,7 @@ _Note: pairwise, all combinations, and each choice coverage are all special case
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Subsumption relationship between different coverage criteria, demonstrating the strength of each method<br><br>(source: Introduction to Software Testing, Ammann &#x26; Offutt)</p></figcaption></figure>
 
-### NIST
+### Importance
 
 Research at the National Institue of Standards and Technology (NIST) confirms that [combinatorial methods can reduce costs for software testing, and have significant applications in software engineering](#user-content-fn-1)[^1]. NIST's research revealed that the majority of software defects and failures can be attributed to the manipulation of just one or two parameters, with progressively fewer arising from the interaction of three or more parameters.
 

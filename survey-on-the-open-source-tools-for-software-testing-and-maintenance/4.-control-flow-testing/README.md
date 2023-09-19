@@ -8,10 +8,20 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 
 #### The following components contribute to control flow testing:
 
+**Graph -** consists of a set of nodes and edges that connect pairs of nodes
+
+**Path -** a sequence of nodes, where each pair of adjacent nodes is an edge
+
+* length of a path refers to number of edges in the path
+* subpath of a path is a subsequence
+* test path is a path that starts with an initial node and ends at a final node
+
 **Basic block -** sequence of consecutive statements with a single entry and a single exit point (one statement executed, all the statements must be executed)
 
 * control always enters basic block at entry and exits from exit
 * can't halt, exit, or enter inside a basic block
+
+
 
 Take for example, this example program and its associated blocks:   &#x20;
 
@@ -39,7 +49,7 @@ end
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
-
+![](../../.gitbook/assets/image.png)
 
 
 

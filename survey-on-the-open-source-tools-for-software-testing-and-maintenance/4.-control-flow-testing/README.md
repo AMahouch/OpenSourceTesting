@@ -16,7 +16,7 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 Take for example, this example program and its associated blocks:   &#x20;
 
 {% code lineNumbers="true" fullWidth="false" %}
-```
+```pascal
 begin
     int x, y, power;
     float z;
@@ -26,10 +26,10 @@ begin
     else
         power = y;
     z = 1;
-    while(power != 0) {
+    while(power != 0) 
         z = z * x;
         power = power - 1;
-    }
+        
     if(y < 0)
         z = 1/z;
     output(z);

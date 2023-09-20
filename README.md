@@ -1,5 +1,5 @@
 ---
-description: 'Author: Ameen Mahouch'
+description: Ameen Mahouch
 ---
 
 # Survey on the Open-source Tools for Software Testing and Maintenance

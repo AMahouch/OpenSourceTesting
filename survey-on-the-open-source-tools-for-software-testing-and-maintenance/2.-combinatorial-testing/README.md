@@ -7,15 +7,15 @@ Combinatorial, or t-way combinatorial testing, is a testing technique in which a
 There are several strategies of combination to test multiple parameters, including:
 
 * All combinations coverage
-* Each choice coverage
-* Pairwise coverage
 * T-wise coverage
-* Base choice coverage
+* Pairwise coverage
 * Multiple base choices coverage
+* Base choice coverage
+* Each choice coverage
 
 _Note: pairwise, all combinations, and each choice coverage are all special cases of t-wise coverage._
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Subsumption relationship between different coverage criteria, demonstrating the strength of each method<br><br>(source: Introduction to Software Testing, Ammann &#x26; Offutt)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Subsumption relationship between different coverage criteria, demonstrating the strength of each method<br><br>(source: Introduction to Software Testing, Ammann &#x26; Offutt 2nd Edition)<br><a href="https://www.amazon.com/Introduction-Software-Testing-Paul-Ammann/dp/1107172012">https://www.amazon.com/Introduction-Software-Testing-Paul-Ammann/dp/1107172012</a><br></p></figcaption></figure>
 
 ### Importance
 

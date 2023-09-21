@@ -8,15 +8,17 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 
 #### The following components contribute to control flow testing:
 
-**Graph -** consists of a set of nodes and edges that connect pairs of nodes
+**Graph** consists of a set of nodes and edges that connect pairs of nodes.
 
-**Path -** a sequence of nodes, where each pair of adjacent nodes is an edge
+**Path** is a sequence of nodes, where each pair of adjacent nodes is an edge.
 
-* length of a path refers to number of edges in the path
-* subpath of a path is a subsequence
-* test path is a path that starts with an initial node and ends at a final node
+* **Length** of a path refers to number of edges in the path.
+* **Subpath** of a path is a subsequence
+* **Test path** is a path that starts with an initial node and ends at a final node
+* **Simple path** is a path where no node appears more than once in the path, excluding the first and last nodes being identical.
+* **Prime path** is maximum simple path. It does not appear as a proper subpath of any other simple path.
 
-**Basic block -** sequence of consecutive statements with a single entry and a single exit point (one statement executed, all the statements must be executed)
+**Basic block** is a sequence of consecutive statements with a single entry and a single exit point (one statement executed, all the statements must be executed)
 
 * control always enters basic block at entry and exits from exit
 * can't halt, exit, or enter inside a basic block

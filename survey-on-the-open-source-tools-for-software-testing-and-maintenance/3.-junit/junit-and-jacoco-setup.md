@@ -38,3 +38,7 @@ JUnit is a popular Java testing framework that simplifies the process of writing
 
 
 {% embed url="https://youtu.be/DmxogNQGhcY" %}
+
+### Setting Up JaCoCo in IntelliJ IDEA
+
+{% embed url="https://youtu.be/kGR8yFDC8Gw" %}

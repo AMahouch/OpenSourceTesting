@@ -142,3 +142,5 @@ JUnit is a popular Java testing framework that simplifies the process of writing
 8. Click "Apply" and then "OK" to save the configuration.
 9. Right-click on your project again and select "Run" > "Run 'YourProjectName \[clean, test, jacoco:report]'."
 10. After the tests run, you'll find the JaCoCo code coverage report in the `target/site/jacoco` directory. Open the HTML report (`index.html`) in your browser to view the code coverage results.
+
+{% embed url="https://youtu.be/kGR8yFDC8Gw" %}

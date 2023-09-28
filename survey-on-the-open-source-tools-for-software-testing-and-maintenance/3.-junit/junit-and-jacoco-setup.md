@@ -7,6 +7,8 @@ JUnit is a popular Java testing framework that simplifies the process of writing
 1. **Download and Install IntelliJ IDEA:**
    * Visit the official IntelliJ IDEA website ([https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/)) and download the Community Edition if you're using it for non-commercial purposes.
    * Follow the installation instructions for your operating system.
+   * You will also need the Java Development Kit (JDK). If not installed, download the latest version from Oracle [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/).
+   * Finally, this demonstration uses the Maven build automation tool, download instructions found at Apache Maven Project [https://maven.apache.org/install.html](https://maven.apache.org/install.html).
 2. **Open IntelliJ IDEA:**
    * Launch IntelliJ IDEA after installation.
 3. **Create a New Java Project:**
@@ -20,9 +22,7 @@ JUnit is a popular Java testing framework that simplifies the process of writing
    * Select "New" > "Java Class."
    *   Name the class "Calculator" and paste the code for the Calculator class into it.
 
-
-
-       This setup will be using a simple `Calculator` class that will test a `divide()` program
+       * This setup will be using a simple `Calculator` class that will test a `divide()` program
 
        ```java
        public class Calculator {
@@ -40,10 +40,6 @@ JUnit is a popular Java testing framework that simplifies the process of writing
 
        * Ensure correct JUnit libraries are imported. Documentation can be found here:\
          [https://junit.org/junit5/docs/current/user-guide/](https://junit.org/junit5/docs/current/user-guide/)
-
-       ####
-
-       Using JUnit framework, create `CalculatorTest` class with imported libraries and test cases:
 
        ```java
        import org.junit.jupiter.api.Test;

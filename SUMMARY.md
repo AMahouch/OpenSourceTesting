@@ -6,7 +6,7 @@
     * [PICT](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/pict.md)
   * [3. JUnit](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/README.md)
     * [JUnit and JaCoCo Setup](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/junit-and-jacoco-setup.md)
-    * [Example of Using JUnit and JaCoCo](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/example-of-using-junit-and-jacoco.md)
+    * [Example Using JUnit and JaCoCo](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/example-using-junit-and-jacoco.md)
   * [4. Control Flow Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/README.md)
     * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/tool1.md)
   * [5, Test Data Generation](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5-test-data-generation/README.md)

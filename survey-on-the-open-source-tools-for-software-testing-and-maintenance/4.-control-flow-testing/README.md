@@ -18,8 +18,15 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 
 **Basic block** is a sequence of consecutive statements with a single entry and a single exit point (one statement executed, all the statements must be executed)
 
-* control always enters basic block at entry and exits from exit
-* can't halt, exit, or enter inside a basic block
+* Control always enters basic block at entry and exits from exit
+* Cannot halt, exit, or enter inside a basic block
+
+**A control flow graph isa graph with two distinguished nodes, start and end**
+
+* **Node start has no incoming edges, and node end has no outgoing edges.**
+* **Every node can be reached from start, and can reach end.**
+
+### Example
 
 Take for example, this example program and its associated blocks:   &#x20;
 
@@ -45,13 +52,11 @@ end
 ```
 {% endcode %}
 
-
-
 <table data-full-width="true"><thead><tr><th>Block</th><th>Lines</th><th>Entry</th><th>Exit</th></tr></thead><tbody><tr><td>1</td><td>2, 3, 4, 5</td><td>2</td><td>5</td></tr><tr><td>2</td><td>6</td><td>6</td><td>6</td></tr><tr><td>3</td><td>8</td><td>8</td><td>8</td></tr><tr><td>4</td><td>9</td><td>9</td><td>9</td></tr><tr><td>5</td><td>10</td><td>10</td><td>10</td></tr><tr><td>6</td><td>11,12</td><td>11</td><td>12</td></tr><tr><td>7</td><td>14</td><td>14</td><td>14</td></tr><tr><td>8</td><td>15</td><td>15</td><td>15</td></tr><tr><td>9</td><td>16</td><td>16</td><td>16</td></tr></tbody></table>
 
 
 
-###
+The graph below&#x20;
 
 
 

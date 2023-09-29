@@ -4,8 +4,6 @@
 
 Control Flow Testing is a form of graph-based testing. Graph-based testing is a model approach in which a model (abstraction) of the program is generated and tested over certain elements.&#x20;
 
-
-
 #### The following components contribute to control flow testing:
 
 **Graph** consists of a set of nodes and edges that connect pairs of nodes.
@@ -22,8 +20,6 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 
 * control always enters basic block at entry and exits from exit
 * can't halt, exit, or enter inside a basic block
-
-
 
 Take for example, this example program and its associated blocks:   &#x20;
 
@@ -49,9 +45,9 @@ end
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/image.png)
+
+<table data-full-width="true"><thead><tr><th>Block</th><th>Lines</th><th>Entry</th><th>Exit</th></tr></thead><tbody><tr><td>1</td><td>2, 3, 4, 5</td><td>2</td><td>5</td></tr><tr><td>2</td><td>6</td><td>6</td><td>6</td></tr><tr><td>3</td><td>8</td><td>8</td><td>8</td></tr><tr><td>4</td><td>9</td><td>9</td><td>9</td></tr><tr><td>5</td><td>10</td><td>10</td><td>10</td></tr><tr><td>6</td><td>11,12</td><td>11</td><td>12</td></tr><tr><td>7</td><td>14</td><td>14</td><td>14</td></tr><tr><td>8</td><td>15</td><td>15</td><td>15</td></tr><tr><td>9</td><td>16</td><td>16</td><td>16</td></tr></tbody></table>
 
 
 

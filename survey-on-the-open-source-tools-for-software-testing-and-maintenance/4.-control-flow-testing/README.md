@@ -62,17 +62,17 @@ The graph below illustrates the control flow graph for the code and basic blocks
 
 #### Coverages:
 
-Node Coverage
+**Node Coverage**
 
-Edge Coverage
+**Edge Coverage**
 
-Edge-Pair Coverage
+**Edge-Pair Coverage**
 
-Complete Path Coverage
+**Complete Path Coverage**
 
-Prime Path Coverage
+**Prime Path Coverage**
 
-
+(will add def later)
 
 
 

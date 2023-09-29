@@ -56,7 +56,9 @@ end
 
 
 
-The graph below&#x20;
+The graph below illustrates the control flow graph for the code and basic blocks above:
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="233"><figcaption></figcaption></figure>
 
 
 

@@ -70,21 +70,15 @@ Coverage criteria are used to define the specific requirements that test cases m
 
 **Edge-Pair Coverage**
 
-* TR: each reachable path of length up to 2, inclusive, in a graph G
+* TR: each reachable path of length up to 2, inclusive, in a graph G.
 
 **Complete Path Coverage**
 
+* TR: all paths in a graph G.
+
 **Prime Path Coverage**
 
-(will add def later)
-
-
-
-
-
-
-
-
+* TR: every prime path in a graph G.
 
 ## Tools&#x20;
 

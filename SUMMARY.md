@@ -8,7 +8,7 @@
     * [JUnit and JaCoCo Setup](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/junit-and-jacoco-setup.md)
     * [Example Using JUnit and JaCoCo](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/example-using-junit-and-jacoco.md)
   * [4. Control Flow Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/README.md)
-    * [CoFlo](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/coflo.md)
+    * [py2cfg](survey-on-the-open-source-tools-for-software-testing-and-maintenance/4.-control-flow-testing/py2cfg.md)
   * [5, Test Data Generation](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5-test-data-generation/README.md)
     * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5-test-data-generation/tool1.md)
   * [6. Data Flow Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/6-data-flow-testing/README.md)

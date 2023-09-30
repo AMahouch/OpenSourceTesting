@@ -1,5 +1,7 @@
 # py2cfg
 
+{% embed url="https://pypi.org/project/py2cfg/" %}
+
 ## Description
 
 py2cfg is a Python package designed to create Control Flow Graphs (CFGs) for Python3 programs, an important concept in software testing and analysis. py2cfg simplifies the generation of these CFGs and offers seamless integration with Graphviz visualization software for easy visualization.
@@ -7,8 +9,6 @@ py2cfg is a Python package designed to create Control Flow Graphs (CFGs) for Pyt
 The main objective of py2cfg is to allow software testers and analysts by providing a user-friendly tool to understand, analyze, and assess the control flow of Python programs. By producing clear and intuitive graphical representations, it aids in identifying potential issues, testing scenarios, and debugging processes. Whether the objectives involve assessing code coverage, identifying edge cases, or enhancing software reliability, py2cfg serves as a valuable tool within the software testing toolkit
 
 
-
-{% embed url="https://pypi.org/project/py2cfg/" %}
 
 ## Setup
 

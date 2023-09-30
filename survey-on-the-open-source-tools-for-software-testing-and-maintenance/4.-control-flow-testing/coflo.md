@@ -2,7 +2,7 @@
 
 ## Description
 
-
+{% embed url="https://pypi.org/project/py2cfg/" %}
 
 ## Setup
 

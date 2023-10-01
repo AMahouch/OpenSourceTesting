@@ -12,7 +12,7 @@ The main objective of py2cfg is to provide a user-friendly tool to understand, a
 
 ## Setup
 
-py2cfg is a Python package, it can be easily implemented in various development environments and command-line interfaces. This setup will be using the [Visual Studio Code IDE.](https://code.visualstudio.com/)
+py2cfg is a Python package, it can be easily implemented in various development environments and command-line interfaces. This setup will be using the [Visual Studio Code IDE](https://code.visualstudio.com/), but any development environment can be used
 
 
 
@@ -24,11 +24,19 @@ Install py2cfg using `pip`:
 pip install py2cfg
 ```
 
-&#x20;**Usage**&#x20;
+The package can also be installed through the Anaconda package manager:
 
-After installing `py2cfg`, you can use it in several ways:
+```bash
+conda install -c conda-forge py2cfg
+```
 
-**Run via Shell Command** If you have installed it, you can run `py2cfg` as a shell command to generate control flow graphs for Python files:
+
+
+**Usage**
+
+After installing `py2cfg`, you can use it in several ways. Below are 4 options to use the tool:
+
+**Option 1: Run via Shell Command** If you have installed it, you can run `py2cfg` as a shell command to generate control flow graphs for Python files:
 
 ```bash
 py2cfg <file.py>
@@ -52,20 +60,27 @@ python3 py2cfg/_runner.py path_to_my_code.py
 **Option 4: Via Import (In  Python Code)** Whether or not you have installed `py2cfg`, you can import the module into your Python code and use the `py2cfg.CFGBuilder` class to build control flow graphs:
 
 ```python
-from py2cfg import CFGBuilder
+import py2cfg
 
-cfg = CFGBuilder().build_from_file('example', './example.py')
+# Create a CFGBuilder object
+builder = py2cfg.CFGBuilder()
+
+# Build a control flow graph for the file "my_code.py"
+cfg = builder.build_cfg("my_code.py")
+
+# Visualize the control flow graph
+cfg.build_visual(filename="my_code_cfg.svg")
 ```
 
 
 
 ## Demo
 
-will record video soon
 
 
 
-python code
+
+
 
 ````python
 # fib.py
@@ -83,9 +98,9 @@ for _ in range(10):
 ```
 ````
 
-generates this:
+Generated this:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>fig_cfg.py</p></figcaption></figure>
 
 
 

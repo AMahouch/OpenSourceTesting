@@ -1,6 +1,10 @@
 # py2cfg
 
+
+
 {% embed url="https://pypi.org/project/py2cfg/" %}
+All code, documentation, and releases can be found here.
+{% endembed %}
 
 ## Description
 

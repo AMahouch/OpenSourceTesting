@@ -12,23 +12,29 @@ The main objective of py2cfg is to provide a user-friendly tool to understand, a
 
 ## Setup
 
+py2cfg is a Python package, it can be easily implemented in various development environments and command-line interfaces. This setup will be using the [Visual Studio Code IDE.](https://code.visualstudio.com/)
 
 
-**Step 1: Installation** Install `py2cfg` using `pip`:
+
+**Installation**
+
+Install py2cfg using `pip`:
 
 ```bash
 pip install py2cfg
 ```
 
-**Step 2: Usage** After installing `py2cfg`, you can use it in several ways:
+&#x20;**Usage**&#x20;
 
-**Option 1: Run via Shell Command** If you have installed it, you can run `py2cfg` as a shell command to generate control flow graphs for Python files:
+After installing `py2cfg`, you can use it in several ways:
+
+**Run via Shell Command** If you have installed it, you can run `py2cfg` as a shell command to generate control flow graphs for Python files:
 
 ```bash
 py2cfg <file.py>
 ```
 
-This command will create a `<file>_cfg.svg` file containing the colored control flow graph of the specified Python file.
+This command will output a `<file>_cfg.svg` file in the current directory containing the colored control flow graph of the specified Python file.
 
 **Option 2: Run with pudb3** You can also use `py2cfg` interactively with `pudb3` for debugging:
 

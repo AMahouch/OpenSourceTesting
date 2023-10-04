@@ -21,7 +21,7 @@ Control Flow Testing is a form of graph-based testing. Graph-based testing is a 
 * Control always enters basic block at entry and exits from exit
 * Cannot halt, exit, or enter inside a basic block
 
-**A control flow graph isa graph with two distinguished nodes, start and end**
+**A control flow graph is a graph with two distinguished nodes, start and end**
 
 * **Node start has no incoming edges, and node end has no outgoing edges.**
 * **Every node can be reached from start, and can reach end.**

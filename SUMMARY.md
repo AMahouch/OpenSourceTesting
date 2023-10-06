@@ -3,6 +3,7 @@
 * [Survey on the Open-source Tools for Software Testing and Maintenance](README.md)
   * [1. Input Space Partitioning](survey-on-the-open-source-tools-for-software-testing-and-maintenance/1.-input-space-partitioning.md)
   * [2. Combinatorial Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/README.md)
+    * [ACTS](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/acts.md)
     * [PICT](survey-on-the-open-source-tools-for-software-testing-and-maintenance/2.-combinatorial-testing/pict.md)
   * [3. JUnit](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/README.md)
     * [JUnit and JaCoCo Setup](survey-on-the-open-source-tools-for-software-testing-and-maintenance/3.-junit/junit-and-jacoco-setup.md)

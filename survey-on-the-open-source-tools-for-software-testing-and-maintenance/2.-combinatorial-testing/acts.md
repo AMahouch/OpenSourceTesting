@@ -53,6 +53,17 @@ ACTS provides 3 options:
 ### Obtaining ACTS
 
 {% embed url="https://csrc.nist.rip/groups/SNS/acts/documents/comparison-report.html" %}
-
 To request a copy, follow the guidelines in the website above.
+{% endembed %}
 
+### Demo
+
+{% embed url="https://youtu.be/oXGdC98EE6s?si=XJNcNM8Wg0ezIIcc" %}
+
+### Resources
+
+{% embed url="https://www.nist.gov/privacy-framework/nist-acts" %}
+
+{% embed url="https://csrc.nist.gov/Projects/automated-combinatorial-testing-for-software/downloadable-tools" %}
+
+{% embed url="https://www.david-merrick.com/2017/06/06/how-to-use-the-acts-tool-for-combinatorics-testing/" %}

@@ -50,6 +50,17 @@ extensions = ${jpf-core},${jpf-symbc}
 
 Ensure to modify the paths to the proper jpf-core and jpf-symbc directory locations.
 
+#### Running
+
+To run Symbolic PathFinder on this program, first create a `.jpf` file with the following content:
+
+```
+target = Example.jpf
+source = Example.java
+```
+
+Then open this `.jpf` file in Eclipse and select the "run-JPF-symbc" run configuration. When running this configuration, Symbolic PathFinder will explore all possible paths through the program.
+
 ## Demo
 
 \
@@ -60,6 +71,10 @@ Symbolic PathFinder (SPF) outputs a report for each path that it explores. The r
 * The values that were used for the symbolic inputs.
 
 The report will also indicate whether the path resulted in a bug or error. If so, the report will provide information about the bug or error, such as the type of error and the line of code where the error occurred.
+
+{% embed url="https://youtu.be/4NJW1Q_ASuY?si=3xfd55L-9GcDwU9x&t=892" %}
+Corina Pasareanu (CMU, NASA Ames) on "Symbolic Pathfinder".
+{% endembed %}
 
 \
 

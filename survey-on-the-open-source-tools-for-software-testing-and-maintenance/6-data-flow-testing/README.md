@@ -12,7 +12,7 @@
 A data flow graph captures the flow of data in a program. It is fundamentally built upon Control Flow Graph (CFG), with each node annotated with either
 
 * def(n) : set of variables defined in node n
-* use(n): the set of variabels used in node in
+* use(n): the set of variables used in node n
 
 
 

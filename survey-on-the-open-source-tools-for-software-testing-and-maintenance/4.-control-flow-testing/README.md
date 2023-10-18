@@ -54,7 +54,7 @@ end
 
 <table data-full-width="true"><thead><tr><th>Block</th><th>Lines</th><th>Entry</th><th>Exit</th></tr></thead><tbody><tr><td>1</td><td>2, 3, 4, 5</td><td>2</td><td>5</td></tr><tr><td>2</td><td>6</td><td>6</td><td>6</td></tr><tr><td>3</td><td>8</td><td>8</td><td>8</td></tr><tr><td>4</td><td>9</td><td>9</td><td>9</td></tr><tr><td>5</td><td>10</td><td>10</td><td>10</td></tr><tr><td>6</td><td>11, 12</td><td>11</td><td>12</td></tr><tr><td>7</td><td>14</td><td>14</td><td>14</td></tr><tr><td>8</td><td>15</td><td>15</td><td>15</td></tr><tr><td>9</td><td>16</td><td>16</td><td>16</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="233"><figcaption><p>Control flow graph for the code and defined basic blocks above</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="233"><figcaption><p>Control flow graph for the code and defined basic blocks above</p></figcaption></figure>
 
 ***
 

@@ -96,7 +96,7 @@ for _ in range(10):
 
 Generated this:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>fig_cfg.py</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>fig_cfg.py</p></figcaption></figure>
 
 
 
@@ -141,4 +141,4 @@ else:
 
 generates this
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

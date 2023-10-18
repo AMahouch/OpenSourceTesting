@@ -6,9 +6,10 @@ Test data generation is the process of creating input data for a software progra
 
 #### Symbolic Execution
 
-Symbolic execution is a technique that executes a program using symbolic values instead of concrete values. Symbolic execution can be used to generate test data by solving the path conditions for a given path through the program.
+Symbolic execution is a technique that executes a program using symbolic values instead of concrete values. Symbolic execution can be used to generate test data by solving the path conditions for a given path through the branch conditions.
 
-* used to rewrite internal variables as external inputs
+* Symbolic execution is used to rewrite internal variables as external inputs
+* Uses a constraint solver to solve the path condition
 
 #### Search-Based Generation
 

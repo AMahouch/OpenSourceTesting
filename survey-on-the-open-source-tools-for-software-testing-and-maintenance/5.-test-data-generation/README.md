@@ -2,7 +2,7 @@
 
 ## Description
 
-Test data generation is the process of creating input data for a software program to test its functionality. Test data can be generated manually or automatically. Automated test data generation can help to improve the coverage and quality of testing.
+Test data generation is the process of creating input data for a software program to test its functionality. Though there are several approaches, test data generation is one of the most challenging problems to implement in software testing. Test data can be generated manually or automatically. Automated test data generation can help to improve the coverage and quality of testing.
 
 #### Symbolic Execution
 

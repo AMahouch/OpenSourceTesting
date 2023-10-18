@@ -80,12 +80,12 @@ Coverage criteria are used to define the specific requirements that test cases m
 
 * TR: every prime path in a graph G.
 
-## Tools&#x20;
+## Tools
 
-**CoFlo**&#x20;
 
-{% embed url="https://sourceforge.net/projects/coflo/" %}
 
-**py2cfg**
-
-{% embed url="https://pypi.org/project/py2cfg/" %}
+| Tool   | Description                                                                                                                                                                                                                           | Link                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Soot   | Soot is an open-source framework for analyzing and transforming Java bytecode. While it's more comprehensive than just control flow testing, it offers control flow analysis capabilities that can be useful in software engineering. | [https://github.com/soot-oss/soot](https://github.com/soot-oss/soot)               |
+| CoFlo  | CoFlo is an open-source control flow analysis tool for C and C++ programs. It generates control flow graphs, supports data flow analysis, and helps identify potential issues related to control flow.                                | [https://sourceforge.net/projects/coflo/](https://sourceforge.net/projects/coflo/) |
+| py2cfg | py2cfg is a Python-based tool for generating control flow graphs from Python code. It can be used to visualize and analyze the control flow of Python programs.                                                                       | [https://pypi.org/project/py2cfg/](https://pypi.org/project/py2cfg/)               |

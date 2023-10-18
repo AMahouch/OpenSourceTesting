@@ -13,9 +13,9 @@ Symbolic execution is a technique that executes a program using symbolic values 
 
 #### Search-Based Generation
 
-Search-based generation is a technique that uses search algorithms to generate test data. Search-based generation can be used to generate test data for complex programs with many inputs.
+Search-based generation is a technique that uses metaheuristic search algorithms to generate test data. Search-based generation can be used to generate test data for complex programs with many inputs.
 
-* search input space randomly
+* Search-based generation techniques employ metaheuristic search algorithms and fitness functions to search input space randomly
 
 ## Tools&#x20;
 

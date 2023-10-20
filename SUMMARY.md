@@ -13,7 +13,7 @@
   * [5. Test Data Generation](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5.-test-data-generation/README.md)
     * [Symbolic PathFinder](survey-on-the-open-source-tools-for-software-testing-and-maintenance/5.-test-data-generation/tool1.md)
   * [6. Data Flow Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/6-data-flow-testing/README.md)
-    * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/6-data-flow-testing/tool1.md)
+    * [JavaDataFlow](survey-on-the-open-source-tools-for-software-testing-and-maintenance/6.-data-flow-testing/javadataflow.md)
   * [7, Predicate Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/7-predicate-testing/README.md)
     * [Tool1](survey-on-the-open-source-tools-for-software-testing-and-maintenance/7-predicate-testing/tool1.md)
   * [8, Security Testing](survey-on-the-open-source-tools-for-software-testing-and-maintenance/8-security-testing/README.md)

@@ -29,7 +29,11 @@ This data flow graph corresponds to the above code and blocks, displaying the no
 * A du-pair is a pair of locations (i, j) such that a variable is defined in i and used in j
 * A du-path is a simple path from a definition to a use for a variable, with no redefinition within the path (def-clear)
 
-<table><thead><tr><th>Coverage</th><th data-hidden>Requirements</th><th data-hidden></th></tr></thead><tbody><tr><td>All-Defs Coverage</td><td>For each def, we need to tour at least one path for at least one use</td><td></td></tr><tr><td>All-Uses Coverage</td><td>Tour at least one path for every def-use pair</td><td></td></tr><tr><td>All-DU-Paths Coverage</td><td>Tour every du-path</td><td></td></tr></tbody></table>
+| Coverage              | Requirements                                                         |
+| --------------------- | -------------------------------------------------------------------- |
+| All-Defs Coverage     | For each def, we need to tour at least one path for at least one use |
+| All-Uses Coverage     | Tour at least one path for every def-use pair                        |
+| All-DU-Paths Coverage | Tour every du-path                                                   |
 
 
 

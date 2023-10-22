@@ -91,17 +91,17 @@ There are two methods, `getA` and `setA`.
 
 **Data Flow Nodes:**
 
-* Within each method, there are several data flow nodes mentioned with their names, represented nodes, input, and output relationships.
-* For example, within the "setA" method, it lists the following nodes:
-  * "inputA" represents the input parameter "inputA" and has an output relationship with "setA.a."
-  * "setA.a" represents the assignment operation "this.a = inputA" and has an input relationship with "inputA" and an output relationship with "a."
-* Similar details are provided for the "getA" method.
+* Within each method, there are several data flow nodes mentioned with their names, represented nodes, input, and output relationships:
+* Within the `setA` method, it lists the following nodes:
+  * `inputA` represents the input parameter `inputA` and has an output relationship with `setA.a`.
+  * `setA.a` represents the assignment operation `this.a = inputA` and has an input relationship with `inputA` and an output relationship with `a`.
+* Similar output is provided for the `getA` method.
 
 **Method Returns:**
 
 * The section also indicates the return values of the methods:
-  * "setA" method has a return of "null."
-  * "getA" method returns "getA\_return."
+  * `setA` method has a return of `null`.
+  * `getA` method returns `getA_return`.
 
 
 
@@ -158,7 +158,6 @@ method setA{
 		DataFlowNode[name=getA_return_line22_col5,representedNode=return a;,in=[a->getA_return_line22_col5],out=[getA_return_line22_col5->getA_return],type=<null>]
 	}
 	return getA_return
-}
 }
 ```
 {% endcode %}

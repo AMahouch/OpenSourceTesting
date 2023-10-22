@@ -26,4 +26,37 @@ _JavaDataFlow is available under the terms of the Apache License, and code can b
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>In IntelliJ, click the "Load" button in the bottom right of the screen to finish project configuration.</p></figcaption></figure>
 
+**Update Project Paths**
+
+* In `Main.java`, update the 2 strings `systemPath` and `projectPath` to reflect your machine's proper paths:
+
+```java
+String systemPath = "/path/to/JavaDataFlowExample/";
+String projectPath = "/path/to/JavaDataFlowExample/src/main/java/";
+```
+
 ## Demo
+
+In the `JavaDataFlowExample`, the example class is used:
+
+```java
+public class Example1 {
+  int a;
+
+  public int getA() {
+    return a;
+  }
+
+  public void setA(int inputA) {
+    this.a = inputA;
+  }
+}
+```
+
+
+
+The code uses the [JavaParser library ](https://javaparser.org/)to initialize a DataFlowGraph object.&#x20;
+
+```java
+DataFlowGraph dfg = JavaDataFlow.create(systemPath + projectPath + inputClass);
+```

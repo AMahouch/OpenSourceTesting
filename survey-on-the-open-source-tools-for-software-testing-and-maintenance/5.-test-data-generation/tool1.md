@@ -4,7 +4,7 @@
 
 [Symbolic Pathfinder (SPF) combines symbolic execution with model checking and constraint solving for automated test case generation and error detection in Java programs with unspecified inputs. In this tool, programs are executed on symbolic inputs representing multiple concrete inputs. Values of variables are represented as constraints generated from the analysis of Java bytecode. The constraints are solved using off-the shelf solvers to generate test inputs guaranteed to achieve complex coverage criteria. SPF has been used successfully at NASA, in academia, and in industry.](#user-content-fn-1)[^1]
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sample diagram of SPF<br>(source: <a href="https://github.com/SymbolicPathFinder/jpf-symbc/tree/master/doc">https://github.com/SymbolicPathFinder/jpf-symbc/tree/master/doc</a>)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Sample diagram of SPF<br>(source: <a href="https://github.com/SymbolicPathFinder/jpf-symbc/tree/master/doc">https://github.com/SymbolicPathFinder/jpf-symbc/tree/master/doc</a>)</p></figcaption></figure>
 
 ## Setup
 

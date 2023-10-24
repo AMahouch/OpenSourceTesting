@@ -9,15 +9,19 @@ Predicate testing can be used to test both **program-based predicates** and **sp
 * Program-based predicates are those that can be identified from the branching points of the source code.
 * Specification-based predicates are those that can be identified from the formal and informal requirements for the program, as well as from behavioral models such as finite state machines.
 
-| Coverage                                 | Description |
-| ---------------------------------------- | ----------- |
-| Predicate Coverage                       |             |
-| Clause Coverage                          |             |
-| Combinatorial Coverage                   |             |
-| Active Clause Coverage (ACC)             |             |
-| General Active Clause Coverage (GACC)    |             |
-| Correlated Active Clause Coverage (CACC) |             |
-| Restricted Active Clause Coverage (RACC) |             |
+
+
+There are several test coverages in predicate testing, using the basic concepts of booleans, logical operators, clauses, and active clauses.
+
+| Coverage                                 | Description (test requirements)                                                                                                                                                  |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Predicate Coverage                       | p evaluates to true and p evaluates to false for every predicate p.                                                                                                              |
+| Clause Coverage                          | c evaluates to true and c evaluates to false for every clause c.                                                                                                                 |
+| Combinatorial Coverage                   | For each predicate p, clauses in p evaluate to each possible combination of truth values.                                                                                        |
+| Active Clause Coverage (ACC)             | For each predicate p and each major clause c of p, choose minor clauses so that c determines p. TR has two requirements for each c: c evaluates to true and c evaluates to false |
+| General Active Clause Coverage (GACC)    | The same as ACC, and it does not require the minor clauses have the same values when the major clause evaluates to true and false.                                               |
+| Correlated Active Clause Coverage (CACC) | The same as ACC, but it requires the entire predicate to be true for one value of the major clause and false for the other.                                                      |
+| Restricted Active Clause Coverage (RACC) | The same as ACC, but it requires the minor clauses have the same values when the major clause evaluates to true and false.                                                       |
 
 ## Tools&#x20;
 

@@ -9,8 +9,6 @@ Predicate testing can be used to test both **program-based predicates** and **sp
 * Program-based predicates are those that can be identified from the branching points of the source code.
 * Specification-based predicates are those that can be identified from the formal and informal requirements for the program, as well as from behavioral models such as finite state machines.
 
-
-
 There are several test coverages in predicate testing, using the basic concepts of booleans, logical operators, clauses, and active clauses.
 
 | Coverage                                 | Description (test requirements)                                                                                                                                                  |
@@ -22,6 +20,11 @@ There are several test coverages in predicate testing, using the basic concepts 
 | General Active Clause Coverage (GACC)    | The same as ACC, and it does not require the minor clauses have the same values when the major clause evaluates to true and false.                                               |
 | Correlated Active Clause Coverage (CACC) | The same as ACC, but it requires the entire predicate to be true for one value of the major clause and false for the other.                                                      |
 | Restricted Active Clause Coverage (RACC) | The same as ACC, but it requires the minor clauses have the same values when the major clause evaluates to true and false.                                                       |
+
+In practicality, there are two challenges when applying predicate testing to programs:
+
+* **Reachability**: A test must be able to reach the predicate being tested.
+* **Controllability**: Internal variables must be rewritten in terms of external input variables.
 
 ## Tools&#x20;
 

@@ -26,6 +26,12 @@ In practicality, there are two challenges when applying predicate testing to pro
 * **Reachability**: A test must be able to reach the predicate being tested.
 * **Controllability**: Internal variables must be rewritten in terms of external input variables.
 
+#### Importance
+
+Predicate testing is required by US FAA for safety critical avionics software in commercial aircraft. Similarly in the [medical device industry](#user-content-fn-1)[^1], predicate testing is crucial for ensuring that software embedded in devices like pacemakers, infusion pumps, and MRI machines operates correctly and safely.
+
 ## Tools&#x20;
 
 Tool1 (link)
+
+[^1]: [https://www.mdpi.com/2079-9292/11/13/2062](https://www.mdpi.com/2079-9292/11/13/2062)
